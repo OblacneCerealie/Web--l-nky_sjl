@@ -1,6 +1,4 @@
-.hidden {
-  display: none;
-}
-* {
-  color: aqua;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
