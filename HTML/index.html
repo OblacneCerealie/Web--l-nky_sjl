@@ -2,14 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mám článok!</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Vazkanews</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
     <link href="/CSS/output.css" rel="stylesheet">
 
 </head>
 <body>
+    <header>
+        <div id="upperBar">
+            <a id="logo" href="https://www.dikymoc.sk/vazkanews/">
+                <img src="https://www.dikymoc.sk/vazkanews/images/content/vazka/home-logo.png" alt="Vazkanews logo">
+            </a>
+            <div id="login">
+                <a id="loginLink" href="https://www.dikymoc.sk/uzivatel/prihlasenie/">prihlásiť sa</a>
+            </div>
+        </div>
+        <div id="navBar">
+            <nav id="navButtonsContainer">
+                <ul>
+                    <!-- Pridat vec s moznostami "Kategoria clanku" podla tychto navbar veci -->
+                    <li>
+                        <a>ÚVOD</a>
+                    </li>
+                    <li>
+                        <a>ŠKOLA</a>
+                    </li>
+                    <li>
+                        <a>KNIHY</a>
+                    </li>
+                    <li>
+                        <a>CESTOVANIE</a>
+                    </li>
+                    <li>
+                        <a>RECEPTY</a>
+                    </li>
+                    <li>
+                        <a>ZAUJÍMAVOSTI</a>
+                    </li>
+                    <li>
+                        <a>HOBBY</a>
+                    </li>
+                </ul>
+            </nav>
+            <form id="search">
+                    <!-- Toto potrebuje spojenie so search backend-->
+                    <!-- Ako sa to sendne cez enter?-->
+                <label>
+                    <input id="searchInput" type="text" placeholder="vyhľadať">
+                </label>
+            </form>
+        </div>
+    </header>
+
     <h1 class="text-center ">Ahoj!</h1>
-    Čo je tvoje meno?<input type="text" name="name" id="name">
+    <label>
+        Čo je tvoje meno?<input type="text" name="name" id="name">
+    </label>
     <br>
     <h2>Ak chceš pridať aj obrázky, zipni tvoj file!</h2>
     <input type="file" name="file" id="file">

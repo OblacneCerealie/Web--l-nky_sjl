@@ -12,3 +12,45 @@ h1 {
     align-content: center;
     justify-content: center;
 }
+body {
+    padding: 0 5%;
+}
+#upperBar {
+    justify-content: space-around;
+    display: flex;
+}
+#loginLink {
+    position: relative;
+    top: 25%;
+}
+#navBar {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+#navButtonsContainer {
+    display: flex;
+    width: 100%;
+}
+#navButtonsContainer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+}
+#navButtonsContainer ul li {
+    float: left;
+    padding: 0.5% 2%;
+    background: burlywood
+}
+#navButtonsContainer ul li a {
+
+}
+#search {
+    background: antiquewhite;
+}
+#searchInput {
+    background: antiquewhite;
+    padding: 0.5%;
+}
