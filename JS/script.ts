@@ -1,1 +1,1 @@
-console.log("Ahoj Barborka!");
+console.log("Ahoj Barborka!"); //koho zajebem?
